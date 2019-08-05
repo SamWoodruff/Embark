@@ -11,9 +11,5 @@ create table task(
     hire_id int,
     FOREIGN KEY(hire_id)
     REFERENCES hire(id)
+    ON DELETE CASCADE
 );
-
--- create table hire_task(
---     task_id bigint not null,
---     title_id bigint not null
--- );

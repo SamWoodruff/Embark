@@ -14,4 +14,6 @@ public class NewHire {
     private Long id;
     String firstName;
     String lastName;
+
+
 }
